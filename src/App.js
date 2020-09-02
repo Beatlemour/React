@@ -1,14 +1,37 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <UserGreeting></UserGreeting>
+
+      {/* <ParentComponent></ParentComponent> */}
+
+      {/*      <EventBind></EventBind>
+     <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick> */}
+
+      {/*      <Counter></Counter>
+       <Greet></Greet>
+      <Welcome></Welcome>
+      <Message></Message> */}
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello World
         </p>
         <a
           className="App-link"
@@ -18,7 +41,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
